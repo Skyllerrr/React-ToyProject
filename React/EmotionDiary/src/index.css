@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'NanumPenScript';
+    src: url('/NanumPenScript-Regular.ttf');
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+
+    display: flex;
+}
+
+#root {
+    background-color: white;
+    box-shadow: rgba(100, 100, 100, 0.2) 0px 0px 29px 0px;
+    padding: 0px 20px;
+
+    max-width: 600px; /* 최대 너비를 600px 만큼 채움 */
+    width: 100%; /* 600px 이상으로는 쭉쭉 늘어나도록 */
+    margin: 0 auto;
+    min-height: 100vh; /* 최소 높이를 스크린의 최대 높이(100vh)만큼 꽉 채움 */
+    height: 100%; /* 실제 높이의 height값 */
+}
+
+body * {
+    font-family: 'NanumPenScript'
+}
